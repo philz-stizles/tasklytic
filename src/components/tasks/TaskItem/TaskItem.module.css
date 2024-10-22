@@ -18,4 +18,5 @@
 
 .completed {
   color: #8d8d8d;
+  text-decoration: line-through;
 }

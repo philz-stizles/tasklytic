@@ -22,13 +22,6 @@ const Checkbox = ({ checked = false, onChange }: Props) => {
         <span className={classes.CustomCheckbox}></span>
       )}
     </label>
-    // <div
-    //   role="button"
-    //   className={`${classes.Checkbox}${checked ? ` ${classes.checked}` : ''}`}
-    //   onClick={onClick}
-    // >
-    //
-    // </div>
   );
 };
 

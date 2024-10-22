@@ -1,16 +1,3 @@
-.Checkbox {
-  width: 32px;
-  height: 32px;
-  border-radius: 51px;
-  border: 1.5px solid #071d55;
-  cursor: pointer;
-}
-
-.checked {
-  background-color: #53da69;
-  border-color: #fff;
-}
-
 .CheckboxLabel {
   display: inline-flex;
   align-items: center;
