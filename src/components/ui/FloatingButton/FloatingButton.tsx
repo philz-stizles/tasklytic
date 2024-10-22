@@ -23,7 +23,7 @@ const FloatingButton = ({
       className={`${classes.FloatingButton} ${variants[variant]}`}
       {...rest}
     >
-      <Icon />
+      <Icon size={28} />
     </button>
   );
 };

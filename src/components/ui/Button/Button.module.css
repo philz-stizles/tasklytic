@@ -1,8 +1,11 @@
 .Button {
+  border-radius: 8px;
   border: 2px solid transparent;
-  /* box-shadow: 0px 3px 1px 0px #A8B5DE80 inset; */
   box-shadow: 0px 4px 4px 0px #00000040;
   color: #ffffff;
+  font-weight: 400;
+  cursor: pointer;
+  transition: border-color 0.25s;
 }
 
 .Button.expanded {
@@ -26,9 +29,14 @@
 }
 
 .Button.lg {
+  font-size: 18px;
+  line-height: 21.09px;
   padding: 1.4rem 2.4rem;
 }
 
 .Button.md {
+  font-size: 16px;
+  line-height: 18.75px;
   padding: 1rem 1.4rem;
+  font-weight: 500;
 }

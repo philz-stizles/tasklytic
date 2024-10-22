@@ -10,7 +10,7 @@ const Todo = () => {
   return (
     <section className={classes.Todo}>
       <div className={classes.TodoHeader}>
-        <img src={imageSrc} alt="" />
+        <img src={imageSrc} alt="avatar" />
         <div className={classes.TodoMessage}>
           <h6 className={classes.TodoGreeting}>Hello, John</h6>
           <p className={classes.TodoQuestion}>What are your plans for today?</p>
