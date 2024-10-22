@@ -5,10 +5,16 @@
 }
 
 .EditTaskHeader {
-  padding: 4rem;
+  padding: 3.2rem;
   background: #3556ab;
   text-align: center;
   color: #fff;
+}
+
+.EditTaskHeader h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.13px;
 }
 
 .EditTaskForm {

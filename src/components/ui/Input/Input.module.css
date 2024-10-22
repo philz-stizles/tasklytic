@@ -5,10 +5,20 @@
 }
 
 .Input label {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.44px;
+  letter-spacing: 0.115em;
+  text-align: left;
 }
 
 .Input input {
   border: 2px solid #cbcbcb;
   border-radius: 9px;
   padding: 1.4rem 2rem;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.3px;
+  text-align: left;
+  color: #0d2972;
 }

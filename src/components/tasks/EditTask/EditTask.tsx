@@ -1,18 +1,12 @@
 import { useEffect, useState } from 'react';
 import { Button, Input } from '../..';
-import { Task } from '../../../models/Task';
-import classes from './EditTask.module.css';
 import { Mode } from '../../../enums/task.enums';
+import { useTasks } from '../../../context';
+import classes from './EditTask.module.css';
 
-type Props = {
-  task: Task | null;
-  onSave: (task: Task) => void;
-  onDelete: (id: string) => void;
-  mode: Mode
-};
-
-const EditTask = ({ task, onSave, onDelete, mode }: Props) => {
+const EditTask = () => {
   const [name, setName] = useState('');
+  const { selectedTask: task, mode, handleSave, handleDelete } = useTasks();
 
   useEffect(() => {
     if (task?.name) {
@@ -42,14 +36,14 @@ const EditTask = ({ task, onSave, onDelete, mode }: Props) => {
               variant="danger"
               label="Delete"
               disabled={!editMode}
-              onClick={() => onDelete(task.id)}
+              onClick={() => handleDelete(task.id)}
             />
           )}
           <Button
             expanded
             label="Save"
             onClick={() => {
-              onSave({
+              handleSave({
                 id: editMode ? task.id : new Date().toISOString(),
                 name,
               });
