@@ -1,0 +1,22 @@
+.GoPro {
+  background-color: #cde53d;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px #0000001a;
+  padding: 2.4rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.GoPro p {
+  font-weight: bold;
+}
+
+.GoPro span {
+  position: absolute;
+  top: 0;
+  right: 1.8rem;
+  background-color: #071d55;
+  padding: 1.8rem;
+  color: #fece00;
+}

@@ -1,0 +1,25 @@
+.EditTask {
+  grid-column: span 3 / span 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.EditTaskHeader {
+  padding: 4rem;
+  background: #3556ab;
+  text-align: center;
+  color: #fff;
+}
+
+.EditTaskForm {
+  flex: 1;
+  padding: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.EditTaskActions {
+  display: flex;
+  gap: 1rem;
+}

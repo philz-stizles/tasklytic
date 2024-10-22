@@ -1,0 +1,18 @@
+.TaskItem {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px 0px #0000001a;
+  padding: 1.4375rem 0.625rem 1.4375rem 1.4375rem;
+  border-radius: 6px;
+  color: #071D55;
+}
+
+.TaskName {
+  flex: 1;
+}
+
+.completed {
+  color: #8D8D8D;
+}

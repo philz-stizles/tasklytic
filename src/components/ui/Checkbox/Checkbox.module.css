@@ -1,0 +1,36 @@
+.Checkbox {
+  width: 32px;
+  height: 32px;
+  border-radius: 51px;
+  border: 1.5px solid #071d55;
+  cursor: pointer;
+}
+
+.checked {
+  background-color: #53da69;
+  border-color: #fff;
+}
+
+.CheckboxLabel {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.CheckboxInput {
+  opacity: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.CustomCheckbox {
+  width: 32px;
+  height: 32px;
+  border-radius: 51px;
+  border: 1.5px solid #071d55;
+  display: inline-block;
+  position: relative;
+  transition: background-color 0.2s ease-in-out;
+}

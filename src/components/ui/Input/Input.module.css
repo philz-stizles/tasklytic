@@ -1,0 +1,14 @@
+.Input {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.Input label {
+}
+
+.Input input {
+  border: 2px solid #cbcbcb;
+  border-radius: 9px;
+  padding: 1.4rem 2rem;
+}
